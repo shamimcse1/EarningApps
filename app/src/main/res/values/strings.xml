@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Earning Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstitial_ads">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="fb_banner">549167759165615_549192715829786</string>
+    <string name="fb_Interstitial">549167759165615_549190905829967</string>
+    <string name="fb_rewarded">549167759165615_549192132496511</string>
+    <string name="watch_video_to_get_free_points">Watch video to get free points</string>
+</resources>

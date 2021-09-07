@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.LuckySpinFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/ic_coins"
+        android:text="25000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/txtCoin"/>
+
+    <codercamp.com.earningapps.Spin.WheelView
+        android:id="@+id/wheelView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:BackgroundColor="#ff9800"
+        app:TextColor="#263238"
+        app:CenterImage="@drawable/wheel2"
+        app:CursorImage="@drawable/ic_cursor"/>
+
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        android:background="@drawable/btn_style"
+        android:minWidth="180dp"
+        android:backgroundTint="#F44336"
+        android:text="Spin the Wheel"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>
